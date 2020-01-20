@@ -27,6 +27,7 @@ public class Collections {
                         System.out.println("player is " + entry);
                 }
 
+                //Set- Cannot contain duplicate entries.  If a second entry is added that is a duplicate it will be ignored.
                 System.out.println("***** Set *****");
 
                 Set playerSet = new TreeSet();
@@ -44,16 +45,44 @@ public class Collections {
                 //Print list using an iterator
                 Iterator offense = playerSet.iterator();
 
-                System.out.println("--- Players sorted alphabetically by first name and duplicate entries removed ---"  + "\r");
+                System.out.println("--- Players sorted alphabetically by first name and duplicate entries removed ---" + "\r");
                 while (offense.hasNext()) {
                         System.out.println(offense.next() + "\r");
-        }
-
-
                 }
 
-                //Set- Cannot contain duplicate entries.  If a second entry is added that is a duplicate it will be ignored.
+                // Map
+
+                Map playerNum  = new HashMap();
+                playerNum.put("Carson Wentz", 11);
+                playerNum.put("Miles Sanders",26);
+                playerNum.put("DeSean Jackson", 10);
+                playerNum.put("Alshon Jeffery", 17);
+                playerNum.put("Lane Johnson", 65);
+                playerNum.put("Brandon Brooks", 79);
+                playerNum.put("Jason Kelce", 62);
+                playerNum.put("Isaac Seumalo", 73);
+                playerNum.put("Jason Peters", 71);
+
+                //Print list using an iterator
+                Iterator playNum = playerNum.entrySet().iterator();
+
+                System.out.println("Player and number:");
+                while (playNum.hasNext()) {
+                        Map.Entry mapPlayer = (Map.Entry)playNum.next();
+                        System.out.println(mapPlayer.getKey() + " : " + mapPlayer.getValue());
+                }
+
+
+
+
+
+
+
+
         }
+
+}
+
 
 
 
