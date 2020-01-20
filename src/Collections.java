@@ -4,10 +4,11 @@ public class Collections {
 
 
         public static void main(String[] args) {
-                System.out.println("Array List");
+                System.out.println("**** Array List *****");
+                System.out.println("Emter a number between 0 and 9 to print a players name to the screen.");
                 Scanner numEntry = new Scanner(System.in);
                 int choice = numEntry.nextInt();
-                System.out.println("Emter a number between 0 and 8");
+
 
                 List players = new ArrayList();
                 players.add("Carson Wentz");
@@ -19,24 +20,39 @@ public class Collections {
                 players.add("Jason Kelce");
                 players.add("Isaac Seumalo");
                 players.add("Jason Peters");
+                players.add("Carson Wentz");
 
                 Object entry = players.get(choice);
-                if (choice < 9) {
+                if (choice <= 9) {
                         System.out.println("player is " + entry);
-                } else if (choice >= 9){
-                        System.out.println(" number is not valid.");
                 }
 
+                System.out.println("***** Set *****");
+
+                Set playerSet = new TreeSet();
+                playerSet.add("Carson Wentz");
+                playerSet.add("Miles Sanders");
+                playerSet.add("DeSean Jackson");
+                playerSet.add("Alshon Jeffery");
+                playerSet.add("Carson Wentz");
+                playerSet.add("Lane Johnson");
+                playerSet.add("Brandon Brooks");
+                playerSet.add("Jason Kelce");
+                playerSet.add("Isaac Seumalo");
+                playerSet.add("Jason Peters");
 
                 //Print list using an iterator
-                //Iterator offense = players.iterator();
+                Iterator offense = playerSet.iterator();
 
-                //System.out.println("Eagles Offense" + "\r");
-                //while (offense.hasNext()) {
-                //        System.out.println(offense.next() + "\r");
+                System.out.println("--- Players sorted alphabetically by first name and duplicate entries removed ---"  + "\r");
+                while (offense.hasNext()) {
+                        System.out.println(offense.next() + "\r");
+        }
+
+
                 }
 
-                //Set
+                //Set- Cannot contain duplicate entries.  If a second entry is added that is a duplicate it will be ignored.
         }
 
 
