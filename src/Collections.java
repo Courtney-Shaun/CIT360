@@ -51,6 +51,7 @@ public class Collections {
                 }
 
                 // Map
+                System.out.println("***** Map *****");
 
                 Map playerNum  = new HashMap();
                 playerNum.put("Carson Wentz", 11);
@@ -72,16 +73,44 @@ public class Collections {
                         System.out.println(mapPlayer.getKey() + " : " + mapPlayer.getValue());
                 }
 
+                // Queue - FIFO
 
+                Queue defPlayers = new PriorityQueue();
+                        defPlayers.add("Fletcher Cox");
+                        defPlayers.add("Brandon Graham");
+                        defPlayers.add("Fletcher Cox");
+                        defPlayers.add("Malcolm Jenkins");
+                        defPlayers.add("Derrick Barnett");
 
+                        // Prints players in alphabetical order.
+                        System.out.println(" Defensive Players:" + defPlayers + "\r");
 
+                        // Remove the first element in the Queue
+                        System.out.println("Remove the first element and print Queue: " + defPlayers.remove());
+                        // Display the new first element it the Queue and remove it
+                        System.out.println("Display new first element: " + defPlayers.poll());
+                        // Display the first element
+                        System.out.println("First new element: " + defPlayers.peek());
 
+                 //TreeSet
+                TreeSet defensive = new TreeSet();
+                defensive.add("Fletcher Cox");
+                defensive.add("Brandon Graham");
+                defensive.add("Fletcher Cox");
+                defensive.add("Malcolm Jenkins");
+                defensive.add("Derrick Barnett");
 
-
+                // Print TreeSet usting iterator.  Duplicate values are not accepted.
+                Iterator def = defensive.iterator();
+                while (def.hasNext()){
+                        System.out.println(def.next());
+                }
 
         }
 
-}
+ }
+
+
 
 
 
