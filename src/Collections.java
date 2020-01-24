@@ -26,7 +26,7 @@ public class Collections {
                 if (choice <= 9) {
                         System.out.println("player is " + entry);
                 }
-
+                System.out.println();
                 //Set- Cannot contain duplicate entries.  If a second entry is added that is a duplicate it will be ignored.
                 System.out.println("***** Set *****");
 
@@ -49,7 +49,7 @@ public class Collections {
                 while (offense.hasNext()) {
                         System.out.println(offense.next() + "\r");
                 }
-
+                System.out.println();
                 // Map
                 System.out.println("***** Map *****");
 
@@ -72,8 +72,10 @@ public class Collections {
                         Map.Entry mapPlayer = (Map.Entry)playNum.next();
                         System.out.println(mapPlayer.getKey() + " : " + mapPlayer.getValue());
                 }
+                System.out.println();
 
                 // Queue - FIFO
+                System.out.println("***** Queue *****");
 
                 Queue defPlayers = new PriorityQueue();
                         defPlayers.add("Fletcher Cox");
@@ -92,7 +94,9 @@ public class Collections {
                         // Display the first element
                         System.out.println("First new element: " + defPlayers.peek());
 
+                System.out.println();
                  //TreeSet
+                System.out.println("***** TreeSet *****");
                 TreeSet defensive = new TreeSet();
                 defensive.add("Fletcher Cox");
                 defensive.add("Brandon Graham");
