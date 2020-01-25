@@ -9,7 +9,7 @@ public class Collections {
                 Scanner numEntry = new Scanner(System.in);
                 int choice = numEntry.nextInt();
 
-
+                // An ArrayList can contain contain duplicate entries and the maintains the insertion order.
                 List players = new ArrayList();
                 players.add("Carson Wentz");
                 players.add("Miles Sanders");
@@ -53,6 +53,10 @@ public class Collections {
                 // Map
                 System.out.println("***** Map *****");
 
+                //Map - Contains values based on key value pairs.  Keys in a map are unique and it is useful to be able to
+                // search for, update or delete and element using the key.  A HashMap like this example will not maintain
+                // any order.  A LinkedHashMap will maintain the insertion order and a TreeMap will maintain and ascending
+                // order based on natural ordering.
                 Map playerNum  = new HashMap();
                 playerNum.put("Carson Wentz", 11);
                 playerNum.put("Miles Sanders",26);
@@ -74,7 +78,9 @@ public class Collections {
                 }
                 System.out.println();
 
-                // Queue - FIFO
+                // Queue - FIFO.  The queue is an ordered list that is limited to inserting elements at the end of the list and removing elements at
+                // the front of the list.  In the Priority Queue elements are ordered according to their natural ordering.  In this example it will be the first
+                // letter of the name.
                 System.out.println("***** Queue *****");
 
                 Queue defPlayers = new PriorityQueue();
@@ -87,15 +93,18 @@ public class Collections {
                         // Prints players in alphabetical order.
                         System.out.println(" Defensive Players:" + defPlayers + "\r");
 
-                        // Remove the first element in the Queue
-                        System.out.println("Remove the first element and print Queue: " + defPlayers.remove());
-                        // Display the new first element it the Queue and remove it
-                        System.out.println("Display new first element: " + defPlayers.poll());
-                        // Display the first element
-                        System.out.println("First new element: " + defPlayers.peek());
+                        // Remove the head of the Queue.  If the queue is empty  a NoSuchElementException will be thrown
+                        System.out.println("Remove head and display it using .remove: " + defPlayers.remove());
+                        // Display the new head of the Queue and remove it.  IT will return null if the queue is empty
+                        System.out.println("Display new head and remove it using .poll: " + defPlayers.poll());
+                        // Display the head of the queue without removing it.
+                        System.out.println("First new head: " + defPlayers.peek());
+                        // Display the number of elements in the queue.
+                        System.out.println("Number of elements: " + defPlayers.size());
 
                 System.out.println();
-                 //TreeSet
+                 //TreeSet - A collection that sorts elements in their natural order.  Duplicate entries are not stored.
+
                 System.out.println("***** TreeSet *****");
                 TreeSet defensive = new TreeSet();
                 defensive.add("Fletcher Cox");
@@ -104,7 +113,7 @@ public class Collections {
                 defensive.add("Malcolm Jenkins");
                 defensive.add("Derrick Barnett");
 
-                // Print TreeSet usting iterator.  Duplicate values are not accepted.
+                // Print TreeSet using iterator.  Duplicate values are not accepted.
                 Iterator def = defensive.iterator();
                 while (def.hasNext()){
                         System.out.println(def.next());
