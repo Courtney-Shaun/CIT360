@@ -2,32 +2,119 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d416aedd-3f03-42d2-9948-19b10c46a86c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/CIT360.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jackson_annotations_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jackson_core_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jackson_databind_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/json/EaglesPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/json/JSON.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/json/JSONToObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/json/ObjectToJSON.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/json/playerJSON.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CIT360.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CIT360.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Shaun\Documents\School\CIT360\CIT360\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1WYQj803tVhWqQJJMWnT206jkv8" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jackson-databind-2.10.1.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Application.JSONToObject">
+    <configuration name="Collections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections" />
+      <module name="CIT360" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JSON" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="json.JSON" />
+      <module name="CIT360" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="json.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JSONToObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="json.JSONToObject" />
+      <module name="CIT360" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="json.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjectToJSON" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="json.ObjectToJSON" />
+      <module name="CIT360" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="json.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JSONToObject" />
+        <item itemvalue="Application.ObjectToJSON" />
+        <item itemvalue="Application.JSON" />
+        <item itemvalue="Application.Collections" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -51,7 +138,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579324180873</updated>
-      <workItem from="1579324184487" duration="255000" />
+      <workItem from="1579324184487" duration="29423000" />
+      <workItem from="1580532061485" duration="19503000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1579324375478</created>
@@ -60,32 +148,159 @@
       <option name="project" value="LOCAL" />
       <updated>1579324375478</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial">
+      <created>1579324450890</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579324450890</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial">
+      <created>1579324532069</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579324532069</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ArrayList 1">
+      <created>1579326977101</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579326977101</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added user input to array list">
+      <created>1579544784779</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579544784779</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added TreeSet example to the file.">
+      <created>1579546564825</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1579546564825</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added Map - HashMap to file">
+      <created>1579559049567</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1579559049567</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added more Collections examples">
+      <created>1579571802787</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1579571802787</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added more Collections examples">
+      <created>1579831463310</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1579831463332</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added Descriptions about each collection type.">
+      <created>1579979705011</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1579979705011</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
+    <MESSAGE value="ArrayList 1" />
+    <MESSAGE value="Added user input to array list" />
+    <MESSAGE value="Added TreeSet example to the file." />
+    <MESSAGE value="Added Map - HashMap to file" />
+    <MESSAGE value="Added more Collections examples" />
+    <MESSAGE value="Added Descriptions about each collection type." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Descriptions about each collection type." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2472" y="199" width="816" height="777" key="#Intentions" timestamp="1580592091104">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2472" y="199" width="816" height="777" key="#Intentions/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580592091104" />
     <state x="2472" y="199" key="#Project_Structure" timestamp="1579324482163">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2472" y="199" key="#Project_Structure/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579324482163" />
-    <state x="2500" y="135" key="CommitChangelistDialog2" timestamp="1579324450114">
+    <state x="2687" y="417" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1580360886438">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2500" y="135" key="CommitChangelistDialog2/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579324450114" />
-    <state x="2472" y="274" key="Vcs.Push.Dialog.v2" timestamp="1579324465589">
+    <state x="2687" y="417" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580360886438" />
+    <state x="2650" y="242" key="#com.intellij.ide.util.MemberChooser" timestamp="1580533195872">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2472" y="274" key="Vcs.Push.Dialog.v2/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579324465589" />
-    <state x="2576" y="365" key="com.intellij.ide.util.TipDialog" timestamp="1579324184555">
+    <state x="2650" y="242" key="#com.intellij.ide.util.MemberChooser/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580533195872" />
+    <state x="2610" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580584303037">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state x="2610" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580584303037" />
+    <state x="2609" y="414" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1579326109395">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2609" y="414" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579326109395" />
+    <state x="2500" y="135" key="CommitChangelistDialog2" timestamp="1579979703628">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2500" y="135" key="CommitChangelistDialog2/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579979703628" />
+    <state x="2634" y="256" key="DetectedRootsChooserDialog" timestamp="1580359285853">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2634" y="256" key="DetectedRootsChooserDialog/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580359285853" />
+    <state x="2586" y="282" key="FileChooserDialogImpl" timestamp="1580361894614">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2586" y="282" key="FileChooserDialogImpl/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580361894614" />
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1580603695985">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580603695985" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1580603695984">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.center/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580603695984" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1580603695984">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.left/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580603695984" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1580603695984">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.right/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580603695984" />
+    <state x="2360" y="115" key="SettingsEditor" timestamp="1580361925793">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2360" y="115" key="SettingsEditor/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580361925793" />
+    <state x="2472" y="274" key="Vcs.Push.Dialog.v2" timestamp="1579979714686">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2472" y="274" key="Vcs.Push.Dialog.v2/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579979714686" />
+    <state x="656" y="385" key="com.intellij.ide.util.TipDialog" timestamp="1580532079459">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="656" y="385" key="com.intellij.ide.util.TipDialog/0.30.1920.1050/1920.0.1920.1080@0.30.1920.1050" timestamp="1580532079459" />
     <state x="2576" y="365" key="com.intellij.ide.util.TipDialog/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579324184555" />
+    <state x="2584" y="434" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1580361709524">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2584" y="434" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580361709524" />
+    <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1580603834069">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580603834069" />
   </component>
 </project>
