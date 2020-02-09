@@ -39,7 +39,7 @@ public class ObjectToJSON {
         EaglesPlayer eaglesPlayer2 = new EaglesPlayer();
 
         eaglesPlayer2.setName("Miles Sanders");
-        eaglesPlayer2.setNumber(26);
+        eaglesPlayer2.setNumber(43);
         eaglesPlayer2.setPosition("Running Back");
 
         return eaglesPlayer2;
