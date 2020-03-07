@@ -1,5 +1,7 @@
 package ApplicationControl;
 
+
+// Class used to set and get the player information contained in the array.
 public class Player {
 
     private String name;

@@ -4,6 +4,7 @@ package ApplicationControl;
 import java.util.HashMap;
 import java.util.Scanner;
 
+//  Handler used to show the menu when the program runs and after it returns from processing the other handlers.
 public class ShowMenuHandler implements Handler {
 
     public ShowMenuHandler() {

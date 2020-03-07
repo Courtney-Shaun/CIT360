@@ -3,7 +3,7 @@ package ApplicationControl;
 import java.util.HashMap;
 import ApplicationControl.Library;
 
-
+// Handler used to show the players
 public class ShowPlayerHandler implements Handler {
 
 

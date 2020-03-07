@@ -7,7 +7,7 @@ import ApplicationControl.Player;
 import ApplicationControl.Handler;
 import ApplicationControl.Library;
 
-
+// Handler used when adding a player to the Library.
 public class AddPlayerHandler implements Handler {
 
     @Override

@@ -2,6 +2,7 @@ package ApplicationControl;
 
 import java.util.ArrayList;
 
+// Library of players  used to display the roster add players to.
 public class Library {
 
     private ArrayList<Player> players;
